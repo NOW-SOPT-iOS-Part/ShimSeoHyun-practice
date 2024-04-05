@@ -17,7 +17,17 @@ final class LoginViewController: UIViewController {
         let textField = UITextField(frame: CGRect(x: 20, y: 276, width: 335, height: 52))
         textField.placeholder = "아이디를 입력해주세요"
         textField.font = UIFont(name: "PretendardVariable-SemiBold", size: 14)
-        textField.backgroundColor = UIColor(red: 221/255, green: 222/255, blue: 227/255, alpha: 1)
+        textField.backgroundColor = .grey200
+        textField.layer.cornerRadius = 3
+        
+        let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: 10, height: textField.frame.height))
+        
+        textField.leftView = paddingView
+        textField.leftViewMode = .always
+        
+        textField.rightView = paddingView
+        textField.rightViewMode = .always
+        
         return textField
     }()
     
@@ -25,44 +35,44 @@ final class LoginViewController: UIViewController {
         let textField = UITextField(frame: CGRect(x: 20, y: 335, width: 335, height: 52))
         textField.placeholder = "비밀번호를 입력해주세요"
         textField.font = UIFont(name: "PretendardVariable-SemiBold", size: 14)
-        textField.backgroundColor = UIColor(red: 221/255, green: 222/255, blue: 227/255, alpha: 1)
+        textField.backgroundColor = .grey200
+        textField.layer.cornerRadius = 3
+        
+        let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: 10, height: textField.frame.height))
+        
+        textField.leftView = paddingView
+        textField.leftViewMode = .always
+        
+        textField.rightView = paddingView
+        textField.rightViewMode = .always
+        
         return textField
     }()
     
     private lazy var loginButton: UIButton = {
         let button = UIButton(frame: CGRect(x: 21, y: 422, width: 332, height: 58))
-        button.backgroundColor = UIColor(red: 255/255, green: 111/255, blue: 15/255, alpha: 1)
+        button.backgroundColor = .primaryOrange
+        
         button.setTitle("로그인하기", for: .normal)
         button.setTitleColor(.white, for: .normal)
         button.titleLabel?.font = UIFont(name: "PretendardVariable-Bold", size: 18)
      
         button.addTarget(self, action: #selector(loginButtonDidTap), for: .touchUpInside)
         
+        button.layer.cornerRadius = 6
+        
         return button
     }()
     
-    // 스위치
-    private lazy var loginSwitch : UISwitch = {
-        let mySwitch = UISwitch()
-        mySwitch.layer.position = CGPoint(x: self.view.frame.width/2, y: 500)
-        
-        // 스위치 켜진 상태의 배경색
-        mySwitch.onTintColor = UIColor(red: 255/255, green: 111/255, blue: 15/255, alpha: 1)
-        // 스위치의 버튼 색
-        mySwitch.thumbTintColor = UIColor(red: 255/255, green: 111/255, blue: 15/255, alpha: 1)
-        
-        return mySwitch
-    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         self.view.backgroundColor = .white
         setLayout()
     }
     
     private func setLayout() {
-        [titleLabel, idTextField, passwordTextField, loginButton, loginSwitch].forEach {
+        [titleLabel, idTextField, passwordTextField, loginButton].forEach {
             self.view.addSubview($0)
         }
     }

@@ -30,20 +30,25 @@ final class WelcomeViewController: UIViewController {
     
     private var goHomeButton: UIButton = {
         let button = UIButton(frame: CGRect(x: 20, y: 426, width: 335, height: 58))
-        button.backgroundColor = UIColor(red: 255/255, green: 111/255, blue: 15/255, alpha: 1)
+        button.backgroundColor = .primaryOrange
         button.setTitle("메인으로", for: .normal)
         button.setTitleColor(.white, for: .normal)
         button.titleLabel?.font = UIFont(name: "PretendardVariable-Bold", size: 18)
+        
+        button.layer.cornerRadius = 6
+        
         button.addTarget(self, action: #selector(backToLoginButtonDidTap), for: .touchUpInside)
         return button
     }()
     
     private var backToLoginButton: UIButton = {
         let button = UIButton(frame: CGRect(x: 20, y: 498, width: 335, height: 58))
-        button.backgroundColor = UIColor(red: 221/255, green: 222/255, blue: 227/255, alpha: 1)
+        button.backgroundColor = .grey200
         button.setTitle("로그인하기", for: .normal)
-        button.setTitleColor(UIColor(red: 172/255, green: 176/255, blue: 185/255, alpha: 1), for: .normal)
+        button.setTitleColor(.grey300, for: .normal)
         button.titleLabel?.font = UIFont(name: "PretendardVariable-Bold", size: 18)
+        
+        button.layer.cornerRadius = 6
         
         // 버튼을 클릭하면 LoginView로 돌아감
         button.addTarget(self, action: #selector(backToLoginButtonDidTap), for: .touchUpInside)
