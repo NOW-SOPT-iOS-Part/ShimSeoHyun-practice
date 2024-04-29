@@ -16,10 +16,8 @@
 		861B01682BD388200019A75C /* Sopt_SeminarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861B01672BD388200019A75C /* Sopt_SeminarTests.swift */; };
 		861B01722BD388200019A75C /* Sopt_SeminarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861B01712BD388200019A75C /* Sopt_SeminarUITests.swift */; };
 		861B01742BD388200019A75C /* Sopt_SeminarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861B01732BD388200019A75C /* Sopt_SeminarUITestsLaunchTests.swift */; };
-		861B01812BD3890D0019A75C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861B01802BD3890D0019A75C /* LoginView.swift */; };
 		861B01852BD389F10019A75C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 861B01842BD389F10019A75C /* SnapKit */; };
 		861B01872BD389F10019A75C /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 861B01862BD389F10019A75C /* SnapKit-Dynamic */; };
-		861B01892BD38A350019A75C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861B01882BD38A350019A75C /* LoginViewController.swift */; };
 		861B018C2BD38CEE0019A75C /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861B018B2BD38CEE0019A75C /* ChatViewController.swift */; };
 		861B018E2BD38D670019A75C /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861B018D2BD38D670019A75C /* ChatTableViewCell.swift */; };
 		861B01922BD390880019A75C /* Pretendard.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 861B01912BD390880019A75C /* Pretendard.ttf */; };
@@ -27,6 +25,23 @@
 		861B01972BD3A6AF0019A75C /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861B01962BD3A6AF0019A75C /* ItemViewController.swift */; };
 		861B019B2BD3A7C20019A75C /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861B019A2BD3A7C20019A75C /* ItemCollectionViewCell.swift */; };
 		861B019D2BD3A8AD0019A75C /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861B019C2BD3A8AD0019A75C /* ItemModel.swift */; };
+		864B86F22BDCC9B500B7F572 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 864B86F12BDCC9B500B7F572 /* Moya */; };
+		864B86F42BDCCBCE00B7F572 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B86F32BDCCBCE00B7F572 /* Config.swift */; };
+		864B86F62BDCCF2300B7F572 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B86F52BDCCF2300B7F572 /* NetworkResult.swift */; };
+		864B86F92BDCCF4A00B7F572 /* MoyaLoggingPulgin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B86F82BDCCF4A00B7F572 /* MoyaLoggingPulgin.swift */; };
+		864B86FB2BDCCF5F00B7F572 /* SignUpRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B86FA2BDCCF5F00B7F572 /* SignUpRequestModel.swift */; };
+		864B86FD2BDCCF7300B7F572 /* SignUpResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B86FC2BDCCF7300B7F572 /* SignUpResponseModel.swift */; };
+		864B86FF2BDCCF8100B7F572 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B86FE2BDCCF8100B7F572 /* SignUpViewController.swift */; };
+		864B87012BDCCFB400B7F572 /* UserTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B87002BDCCFB400B7F572 /* UserTargetType.swift */; };
+		864B87032BDCCFC300B7F572 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B87022BDCCFC300B7F572 /* UserService.swift */; };
+		864B87052BDCCFDC00B7F572 /* CheckUserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B87042BDCCFDC00B7F572 /* CheckUserInfoViewController.swift */; };
+		864B87072BDCCFEF00B7F572 /* UserInfoResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B87062BDCCFEF00B7F572 /* UserInfoResponseModel.swift */; };
+		864B870A2BDCD01700B7F572 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 864B87092BDCD01700B7F572 /* Then */; };
+		864B87142BDCD95200B7F572 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B87132BDCD95200B7F572 /* LoginViewController.swift */; };
+		864B87162BDCD97000B7F572 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B87152BDCD97000B7F572 /* WelcomeViewController.swift */; };
+		864B87192BDCDA1100B7F572 /* LoginRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B87182BDCDA1100B7F572 /* LoginRequestModel.swift */; };
+		864B871B2BDCDAE500B7F572 /* LoginResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B871A2BDCDAE500B7F572 /* LoginResponseModel.swift */; };
+		864B871E2BDCDD8900B7F572 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B871D2BDCDD8900B7F572 /* Auth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -74,8 +89,6 @@
 		861B016D2BD388200019A75C /* Sopt-SeminarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sopt-SeminarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		861B01712BD388200019A75C /* Sopt_SeminarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sopt_SeminarUITests.swift; sourceTree = "<group>"; };
 		861B01732BD388200019A75C /* Sopt_SeminarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sopt_SeminarUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		861B01802BD3890D0019A75C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		861B01882BD38A350019A75C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		861B018B2BD38CEE0019A75C /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		861B018D2BD38D670019A75C /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
 		861B01912BD390880019A75C /* Pretendard.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pretendard.ttf; sourceTree = "<group>"; };
@@ -83,6 +96,21 @@
 		861B01962BD3A6AF0019A75C /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 		861B019A2BD3A7C20019A75C /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
 		861B019C2BD3A8AD0019A75C /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		864B86F32BDCCBCE00B7F572 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		864B86F52BDCCF2300B7F572 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		864B86F82BDCCF4A00B7F572 /* MoyaLoggingPulgin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaLoggingPulgin.swift; sourceTree = "<group>"; };
+		864B86FA2BDCCF5F00B7F572 /* SignUpRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRequestModel.swift; sourceTree = "<group>"; };
+		864B86FC2BDCCF7300B7F572 /* SignUpResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpResponseModel.swift; sourceTree = "<group>"; };
+		864B86FE2BDCCF8100B7F572 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		864B87002BDCCFB400B7F572 /* UserTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTargetType.swift; sourceTree = "<group>"; };
+		864B87022BDCCFC300B7F572 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		864B87042BDCCFDC00B7F572 /* CheckUserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckUserInfoViewController.swift; sourceTree = "<group>"; };
+		864B87062BDCCFEF00B7F572 /* UserInfoResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoResponseModel.swift; sourceTree = "<group>"; };
+		864B87132BDCD95200B7F572 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		864B87152BDCD97000B7F572 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		864B87182BDCDA1100B7F572 /* LoginRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestModel.swift; sourceTree = "<group>"; };
+		864B871A2BDCDAE500B7F572 /* LoginResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponseModel.swift; sourceTree = "<group>"; };
+		864B871D2BDCDD8900B7F572 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +120,8 @@
 			files = (
 				861B01852BD389F10019A75C /* SnapKit in Frameworks */,
 				861B01872BD389F10019A75C /* SnapKit-Dynamic in Frameworks */,
+				864B86F22BDCC9B500B7F572 /* Moya in Frameworks */,
+				864B870A2BDCD01700B7F572 /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +165,7 @@
 		861B014F2BD3881F0019A75C /* Sopt-Seminar */ = {
 			isa = PBXGroup;
 			children = (
+				864B86F72BDCCF2D00B7F572 /* Week4 */,
 				861B019E2BD3A9C40019A75C /* View */,
 				861B018F2BD390740019A75C /* Resources */,
 				861B01502BD3881F0019A75C /* AppDelegate.swift */,
@@ -144,8 +175,6 @@
 				861B01592BD388200019A75C /* Assets.xcassets */,
 				861B015B2BD388200019A75C /* LaunchScreen.storyboard */,
 				861B015E2BD388200019A75C /* Info.plist */,
-				861B01802BD3890D0019A75C /* LoginView.swift */,
-				861B01882BD38A350019A75C /* LoginViewController.swift */,
 			);
 			path = "Sopt-Seminar";
 			sourceTree = "<group>";
@@ -212,6 +241,84 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		864B86F72BDCCF2D00B7F572 /* Week4 */ = {
+			isa = PBXGroup;
+			children = (
+				864B871C2BDCDD7E00B7F572 /* Model */,
+				864B87122BDCD90200B7F572 /* View */,
+				864B87112BDCD8CF00B7F572 /* User */,
+				864B87102BDCD8A600B7F572 /* Network */,
+				864B86F32BDCCBCE00B7F572 /* Config.swift */,
+			);
+			path = Week4;
+			sourceTree = "<group>";
+		};
+		864B870B2BDCD7D700B7F572 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				864B86FC2BDCCF7300B7F572 /* SignUpResponseModel.swift */,
+				864B86FA2BDCCF5F00B7F572 /* SignUpRequestModel.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		864B870C2BDCD80200B7F572 /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				864B87062BDCCFEF00B7F572 /* UserInfoResponseModel.swift */,
+			);
+			path = UserInfo;
+			sourceTree = "<group>";
+		};
+		864B87102BDCD8A600B7F572 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				864B86F52BDCCF2300B7F572 /* NetworkResult.swift */,
+				864B86F82BDCCF4A00B7F572 /* MoyaLoggingPulgin.swift */,
+				864B87022BDCCFC300B7F572 /* UserService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		864B87112BDCD8CF00B7F572 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				864B87172BDCD9F600B7F572 /* LogIn */,
+				864B87002BDCCFB400B7F572 /* UserTargetType.swift */,
+				864B870C2BDCD80200B7F572 /* UserInfo */,
+				864B870B2BDCD7D700B7F572 /* SignUp */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		864B87122BDCD90200B7F572 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				864B86FE2BDCCF8100B7F572 /* SignUpViewController.swift */,
+				864B87042BDCCFDC00B7F572 /* CheckUserInfoViewController.swift */,
+				864B87132BDCD95200B7F572 /* LoginViewController.swift */,
+				864B87152BDCD97000B7F572 /* WelcomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		864B87172BDCD9F600B7F572 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				864B87182BDCDA1100B7F572 /* LoginRequestModel.swift */,
+				864B871A2BDCDAE500B7F572 /* LoginResponseModel.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		864B871C2BDCDD7E00B7F572 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				864B871D2BDCDD8900B7F572 /* Auth.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -232,6 +339,8 @@
 			packageProductDependencies = (
 				861B01842BD389F10019A75C /* SnapKit */,
 				861B01862BD389F10019A75C /* SnapKit-Dynamic */,
+				864B86F12BDCC9B500B7F572 /* Moya */,
+				864B87092BDCD01700B7F572 /* Then */,
 			);
 			productName = "Sopt-Seminar";
 			productReference = 861B014D2BD3881F0019A75C /* Sopt-Seminar.app */;
@@ -307,6 +416,8 @@
 			mainGroup = 861B01442BD3881F0019A75C;
 			packageReferences = (
 				861B01832BD389F10019A75C /* XCRemoteSwiftPackageReference "SnapKit" */,
+				864B86F02BDCC9B500B7F572 /* XCRemoteSwiftPackageReference "Moya" */,
+				864B87082BDCD01700B7F572 /* XCRemoteSwiftPackageReference "Then" */,
 			);
 			productRefGroup = 861B014E2BD3881F0019A75C /* Products */;
 			projectDirPath = "";
@@ -353,16 +464,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				861B01552BD3881F0019A75C /* ViewController.swift in Sources */,
+				864B87012BDCCFB400B7F572 /* UserTargetType.swift in Sources */,
+				864B871E2BDCDD8900B7F572 /* Auth.swift in Sources */,
 				861B01512BD3881F0019A75C /* AppDelegate.swift in Sources */,
-				861B01812BD3890D0019A75C /* LoginView.swift in Sources */,
+				864B871B2BDCDAE500B7F572 /* LoginResponseModel.swift in Sources */,
 				861B01942BD39A2E0019A75C /* ChatModel.swift in Sources */,
+				864B87162BDCD97000B7F572 /* WelcomeViewController.swift in Sources */,
 				861B019D2BD3A8AD0019A75C /* ItemModel.swift in Sources */,
-				861B01892BD38A350019A75C /* LoginViewController.swift in Sources */,
+				864B86FF2BDCCF8100B7F572 /* SignUpViewController.swift in Sources */,
+				864B86F42BDCCBCE00B7F572 /* Config.swift in Sources */,
+				864B86F62BDCCF2300B7F572 /* NetworkResult.swift in Sources */,
+				864B87142BDCD95200B7F572 /* LoginViewController.swift in Sources */,
+				864B86F92BDCCF4A00B7F572 /* MoyaLoggingPulgin.swift in Sources */,
+				864B87192BDCDA1100B7F572 /* LoginRequestModel.swift in Sources */,
 				861B019B2BD3A7C20019A75C /* ItemCollectionViewCell.swift in Sources */,
+				864B86FD2BDCCF7300B7F572 /* SignUpResponseModel.swift in Sources */,
+				864B87032BDCCFC300B7F572 /* UserService.swift in Sources */,
 				861B018E2BD38D670019A75C /* ChatTableViewCell.swift in Sources */,
 				861B018C2BD38CEE0019A75C /* ChatViewController.swift in Sources */,
+				864B87052BDCCFDC00B7F572 /* CheckUserInfoViewController.swift in Sources */,
 				861B01532BD3881F0019A75C /* SceneDelegate.swift in Sources */,
+				864B87072BDCCFEF00B7F572 /* UserInfoResponseModel.swift in Sources */,
 				861B01972BD3A6AF0019A75C /* ItemViewController.swift in Sources */,
+				864B86FB2BDCCF5F00B7F572 /* SignUpRequestModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,6 +666,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "http://34.64.233.12:8080";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3Y6FWGNU3J;
@@ -570,6 +695,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BASE_URL = "http://34.64.233.12:8080";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3Y6FWGNU3J;
@@ -719,6 +845,22 @@
 				minimumVersion = 5.7.1;
 			};
 		};
+		864B86F02BDCC9B500B7F572 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+		864B87082BDCD01700B7F572 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -731,6 +873,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 861B01832BD389F10019A75C /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = "SnapKit-Dynamic";
+		};
+		864B86F12BDCC9B500B7F572 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 864B86F02BDCC9B500B7F572 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		864B87092BDCD01700B7F572 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 864B87082BDCD01700B7F572 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
