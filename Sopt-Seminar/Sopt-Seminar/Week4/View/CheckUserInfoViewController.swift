@@ -8,6 +8,7 @@ final class CheckUserInfoViewController: UIViewController {
     private let nickNameLabel = UILabel()
     private let phoneNumberLabel = UILabel()
     
+    
     let memberId = Auth.shared.memberId
     
     override func viewDidLoad() {
@@ -18,6 +19,7 @@ final class CheckUserInfoViewController: UIViewController {
         requestUserInfo()
     }
 
+    // 한 클래스에서 정보 요청, 통신, 정보 저장이 전부 진행 되어. 단일성 책임 원칙이 위반된다
     private func requestUserInfo() {
         //memeberId에 아까 받은 멤버 아이디 직접 넣어주기
         UserService.shared.getUserInfo(memberId: memberId!) { [weak self] response in
