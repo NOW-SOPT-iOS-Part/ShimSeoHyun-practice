@@ -42,6 +42,15 @@
 		864B87192BDCDA1100B7F572 /* LoginRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B87182BDCDA1100B7F572 /* LoginRequestModel.swift */; };
 		864B871B2BDCDAE500B7F572 /* LoginResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B871A2BDCDAE500B7F572 /* LoginResponseModel.swift */; };
 		864B871E2BDCDD8900B7F572 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864B871D2BDCDD8900B7F572 /* Auth.swift */; };
+		865F479D2C01BBF6006F183E /* LoginViewController_DI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F479C2C01BBF6006F183E /* LoginViewController_DI.swift */; };
+		865F479F2C01BC25006F183E /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F479E2C01BC25006F183E /* ViewModelType.swift */; };
+		865F47A12C01BD43006F183E /* OvservablePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F47A02C01BD43006F183E /* OvservablePattern.swift */; };
+		865F47A32C01BD8B006F183E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F47A22C01BD8B006F183E /* LoginView.swift */; };
+		865F47A52C01C764006F183E /* LoginViewModel_RX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F47A42C01C764006F183E /* LoginViewModel_RX.swift */; };
+		865F47A82C01C7DB006F183E /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 865F47A72C01C7DB006F183E /* RxCocoa */; };
+		865F47AA2C01C7DB006F183E /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 865F47A92C01C7DB006F183E /* RxRelay */; };
+		865F47AC2C01C821006F183E /* LoginViewController_RX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F47AB2C01C821006F183E /* LoginViewController_RX.swift */; };
+		865F47AE2C01C873006F183E /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F47AD2C01C873006F183E /* Toast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -111,6 +120,13 @@
 		864B87182BDCDA1100B7F572 /* LoginRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestModel.swift; sourceTree = "<group>"; };
 		864B871A2BDCDAE500B7F572 /* LoginResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponseModel.swift; sourceTree = "<group>"; };
 		864B871D2BDCDD8900B7F572 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		865F479C2C01BBF6006F183E /* LoginViewController_DI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_DI.swift; sourceTree = "<group>"; };
+		865F479E2C01BC25006F183E /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		865F47A02C01BD43006F183E /* OvservablePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvservablePattern.swift; sourceTree = "<group>"; };
+		865F47A22C01BD8B006F183E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		865F47A42C01C764006F183E /* LoginViewModel_RX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel_RX.swift; sourceTree = "<group>"; };
+		865F47AB2C01C821006F183E /* LoginViewController_RX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController_RX.swift; sourceTree = "<group>"; };
+		865F47AD2C01C873006F183E /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +134,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				865F47AA2C01C7DB006F183E /* RxRelay in Frameworks */,
 				861B01852BD389F10019A75C /* SnapKit in Frameworks */,
 				861B01872BD389F10019A75C /* SnapKit-Dynamic in Frameworks */,
+				865F47A82C01C7DB006F183E /* RxCocoa in Frameworks */,
 				864B86F22BDCC9B500B7F572 /* Moya in Frameworks */,
 				864B870A2BDCD01700B7F572 /* Then in Frameworks */,
 			);
@@ -165,6 +183,7 @@
 		861B014F2BD3881F0019A75C /* Sopt-Seminar */ = {
 			isa = PBXGroup;
 			children = (
+				865F479B2C01BBE4006F183E /* Week7 */,
 				864B86F72BDCCF2D00B7F572 /* Week4 */,
 				861B019E2BD3A9C40019A75C /* View */,
 				861B018F2BD390740019A75C /* Resources */,
@@ -319,6 +338,20 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		865F479B2C01BBE4006F183E /* Week7 */ = {
+			isa = PBXGroup;
+			children = (
+				865F479C2C01BBF6006F183E /* LoginViewController_DI.swift */,
+				865F479E2C01BC25006F183E /* ViewModelType.swift */,
+				865F47A02C01BD43006F183E /* OvservablePattern.swift */,
+				865F47A22C01BD8B006F183E /* LoginView.swift */,
+				865F47A42C01C764006F183E /* LoginViewModel_RX.swift */,
+				865F47AB2C01C821006F183E /* LoginViewController_RX.swift */,
+				865F47AD2C01C873006F183E /* Toast.swift */,
+			);
+			path = Week7;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -341,6 +374,8 @@
 				861B01862BD389F10019A75C /* SnapKit-Dynamic */,
 				864B86F12BDCC9B500B7F572 /* Moya */,
 				864B87092BDCD01700B7F572 /* Then */,
+				865F47A72C01C7DB006F183E /* RxCocoa */,
+				865F47A92C01C7DB006F183E /* RxRelay */,
 			);
 			productName = "Sopt-Seminar";
 			productReference = 861B014D2BD3881F0019A75C /* Sopt-Seminar.app */;
@@ -418,6 +453,7 @@
 				861B01832BD389F10019A75C /* XCRemoteSwiftPackageReference "SnapKit" */,
 				864B86F02BDCC9B500B7F572 /* XCRemoteSwiftPackageReference "Moya" */,
 				864B87082BDCD01700B7F572 /* XCRemoteSwiftPackageReference "Then" */,
+				865F47A62C01C7DB006F183E /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = 861B014E2BD3881F0019A75C /* Products */;
 			projectDirPath = "";
@@ -467,23 +503,30 @@
 				864B87012BDCCFB400B7F572 /* UserTargetType.swift in Sources */,
 				864B871E2BDCDD8900B7F572 /* Auth.swift in Sources */,
 				861B01512BD3881F0019A75C /* AppDelegate.swift in Sources */,
+				865F47A12C01BD43006F183E /* OvservablePattern.swift in Sources */,
 				864B871B2BDCDAE500B7F572 /* LoginResponseModel.swift in Sources */,
 				861B01942BD39A2E0019A75C /* ChatModel.swift in Sources */,
 				864B87162BDCD97000B7F572 /* WelcomeViewController.swift in Sources */,
 				861B019D2BD3A8AD0019A75C /* ItemModel.swift in Sources */,
 				864B86FF2BDCCF8100B7F572 /* SignUpViewController.swift in Sources */,
 				864B86F42BDCCBCE00B7F572 /* Config.swift in Sources */,
+				865F47AE2C01C873006F183E /* Toast.swift in Sources */,
 				864B86F62BDCCF2300B7F572 /* NetworkResult.swift in Sources */,
 				864B87142BDCD95200B7F572 /* LoginViewController.swift in Sources */,
+				865F479F2C01BC25006F183E /* ViewModelType.swift in Sources */,
 				864B86F92BDCCF4A00B7F572 /* MoyaLoggingPulgin.swift in Sources */,
 				864B87192BDCDA1100B7F572 /* LoginRequestModel.swift in Sources */,
 				861B019B2BD3A7C20019A75C /* ItemCollectionViewCell.swift in Sources */,
 				864B86FD2BDCCF7300B7F572 /* SignUpResponseModel.swift in Sources */,
+				865F47AC2C01C821006F183E /* LoginViewController_RX.swift in Sources */,
 				864B87032BDCCFC300B7F572 /* UserService.swift in Sources */,
 				861B018E2BD38D670019A75C /* ChatTableViewCell.swift in Sources */,
 				861B018C2BD38CEE0019A75C /* ChatViewController.swift in Sources */,
+				865F47A52C01C764006F183E /* LoginViewModel_RX.swift in Sources */,
 				864B87052BDCCFDC00B7F572 /* CheckUserInfoViewController.swift in Sources */,
+				865F47A32C01BD8B006F183E /* LoginView.swift in Sources */,
 				861B01532BD3881F0019A75C /* SceneDelegate.swift in Sources */,
+				865F479D2C01BBF6006F183E /* LoginViewController_DI.swift in Sources */,
 				864B87072BDCCFEF00B7F572 /* UserInfoResponseModel.swift in Sources */,
 				861B01972BD3A6AF0019A75C /* ItemViewController.swift in Sources */,
 				864B86FB2BDCCF5F00B7F572 /* SignUpRequestModel.swift in Sources */,
@@ -861,6 +904,14 @@
 				minimumVersion = 3.0.0;
 			};
 		};
+		865F47A62C01C7DB006F183E /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -883,6 +934,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 864B87082BDCD01700B7F572 /* XCRemoteSwiftPackageReference "Then" */;
 			productName = Then;
+		};
+		865F47A72C01C7DB006F183E /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 865F47A62C01C7DB006F183E /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		865F47A92C01C7DB006F183E /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 865F47A62C01C7DB006F183E /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
